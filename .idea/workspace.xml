@@ -2,10 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82ff5ac0-654e-46b8-94cf-381fa9135317" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project6/MapToPlan.java" afterPath="$PROJECT_DIR$/src/project6/MapToPlan.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project6/map-out.txt" afterPath="$PROJECT_DIR$/src/project6/map-out.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project6/plan-out.txt" afterPath="$PROJECT_DIR$/src/project6/plan-out.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project6/plan.txt" afterPath="$PROJECT_DIR$/src/project6/plan.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/.player" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/MapToPlan.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/bitmaps/autolab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/bitmaps/blank.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/bitmaps/cave.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/bitmaps/cave2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/bitmaps/hospital_section.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/bitmaps/local.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/bitmaps/simple_rooms.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/bitmaps/square-world.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/bitmaps/wall-world.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/build" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/make-plan" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/make-plan.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/map-out.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/map-simple.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/map.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/map.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/map.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/plan-out.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/plan.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/roomba.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/sick.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/world6.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/project6/world6.world" afterPath="" />
     </list>
     <ignored path="Project6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,27 +49,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MapToPlan.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/project6/MapToPlan.java">
+        <entry file="file://$PROJECT_DIR$/src/MapToPlan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48387095">
-              <caret line="206" column="12" selection-start-line="206" selection-start-column="12" selection-end-line="206" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1478#1484#0" expanded="true" />
-                <element signature="e#5036#5042#0" expanded="true" />
-                <element signature="e#6621#6627#0" expanded="true" />
-                <element signature="e#6693#6699#0" expanded="true" />
-                <element signature="e#7918#7924#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map-out.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project6/map-out.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.49283668">
+              <caret line="269" column="31" selection-start-line="269" selection-start-column="31" selection-end-line="269" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -71,6 +75,7 @@
         <option value="$PROJECT_DIR$/src/project6 2/MapToPlan.java" />
         <option value="$PROJECT_DIR$/src/project6/map-simple.txt" />
         <option value="$PROJECT_DIR$/src/project6/MapToPlan.java" />
+        <option value="$PROJECT_DIR$/src/MapToPlan.java" />
       </list>
     </option>
   </component>
@@ -105,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -137,15 +143,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -505,7 +506,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3877841" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19322033" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19237289" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -531,159 +532,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/project6/make-plan.cc">
+    <entry file="file://$PROJECT_DIR$/src/MapToPlan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.49283668">
+          <caret line="269" column="31" selection-start-line="269" selection-start-column="31" selection-end-line="269" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/MapToPlan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1478#1484#0" expanded="true" />
-            <element signature="e#5036#5042#0" expanded="true" />
-            <element signature="e#6621#6627#0" expanded="true" />
-            <element signature="e#6693#6699#0" expanded="true" />
-            <element signature="e#7918#7924#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/map-simple.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/map.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/build">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/.player">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/bitmaps/cave.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/bitmaps/blank.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/bitmaps/cave2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/bitmaps/local.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/bitmaps/autolab.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/bitmaps/wall-world.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/bitmaps/simple_rooms.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/bitmaps/square-world.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/plan-out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/plan.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/map-simple.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18610422">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/map.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7444169">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/make-plan.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4888338">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/map-out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project6/MapToPlan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48387095">
-          <caret line="206" column="12" selection-start-line="206" selection-start-column="12" selection-end-line="206" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1478#1484#0" expanded="true" />
-            <element signature="e#5036#5042#0" expanded="true" />
-            <element signature="e#6621#6627#0" expanded="true" />
-            <element signature="e#6693#6699#0" expanded="true" />
-            <element signature="e#7918#7924#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

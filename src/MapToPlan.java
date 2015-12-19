@@ -36,7 +36,7 @@ public class MapToPlan {
 
         occupancyGrid = new int [SIZE][SIZE];
         costGrid = new int [SIZE][SIZE];
-        readMap(System.getProperty("user.dir")+"/src/project6/map.txt");
+        readMap(System.getProperty("user.dir")+"/src/map.txt");
         generateCostGrid();
         printMap(occupancyGrid);
         printMap(costGrid);
@@ -276,8 +276,8 @@ public class MapToPlan {
             planFile += plan[i]+" ";
         }
         printPlan();
-        writePlan(System.getProperty("user.dir")+"/src/project6/"+"plan-out.txt", planFile);
-        writeMap(waypointMap, System.getProperty("user.dir")+"/src/project6/"+"map-out.txt");
+        writePlan(System.getProperty("user.dir")+"/src/"+"plan-out.txt", planFile);
+        writeMap(waypointMap, System.getProperty("user.dir")+"/src/"+"map-out.txt");
     }
 
     void readMap(String inputFile){
